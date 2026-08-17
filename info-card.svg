@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+        width="490"
+        height="390"
+        viewBox="0 0 490 390">
+
+    <style>
+        .title {
+            font-family: monospace;
+            font-size: 22px;
+            font-weight: bold;
+            fill: #ffffff;
+        }
+
+        .subtitle {
+            font-family: monospace;
+            font-size: 13px;
+            fill: #8b949e;
+        }
+
+        .label {
+            font-family: monospace;
+            font-size: 14px;
+            font-weight: bold;
+            fill: #58a6ff;
+        }
+
+        .value {
+            font-family: monospace;
+            font-size: 14px;
+            fill: #c9d1d9;
+        }
+
+        .line {
+            stroke: #30363d;
+            stroke-width: 1;
+        }
+
+        
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateX(-8px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .row {
+        opacity: 0;
+        animation: appear 0.35s ease-out forwards;
+    }
+    
+    </style>
+
+    <rect
+        width="490"
+        height="390"
+        rx="12"
+        fill="#0d1117"
+        stroke="#30363d"
+    />
+
+    <!-- Terminal title -->
+    <circle cx="22" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="22" r="6" fill="#27c93f"/>
+
+    <text x="35" y="75" class="title">
+        Dharshan P
+    </text>
+
+    <text x="35" y="98" class="subtitle">
+        Dharshancr@github ~ $ whoami
+    </text>
+
+    <line x1="35" y1="115" x2="455" y2="115" class="line"/>
+
+    
+    <g class="row" style="animation-delay:0.05s">
+        <text x="35" y="150" class="label">Role</text>
+        <text x="150" y="150" class="value">Full Stack Developer</text>
+    </g>
+    
+    
+    <g class="row" style="animation-delay:0.10s">
+        <text x="35" y="185" class="label">Stack</text>
+        <text x="150" y="185" class="value">React • Node.js • Python • AI</text>
+    </g>
+    
+    
+    <g class="row" style="animation-delay:0.15s">
+        <text x="35" y="220" class="label">Focus</text>
+        <text x="150" y="220" class="value">SaaS • Automation • APIs</text>
+    </g>
+    
+    
+    <g class="row" style="animation-delay:0.20s">
+        <text x="35" y="255" class="label">Projects</text>
+        <text x="150" y="255" class="value">Stock Dashboard • RFQ Automation</text>
+    </g>
+    
+    
+    <g class="row" style="animation-delay:0.25s">
+        <text x="35" y="290" class="label">Current</text>
+        <text x="150" y="290" class="value">Building AI-powered SaaS</text>
+    </g>
+    
+    
+    <g class="row" style="animation-delay:0.30s">
+        <text x="35" y="325" class="label">Goal</text>
+        <text x="150" y="325" class="value">Open to Freelance Projects</text>
+    </g>
+    
+
+    <text x="35" y="365" class="subtitle">
+        $ ./build-something-great
+    </text>
+
+    </svg>
+    
