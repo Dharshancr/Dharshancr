@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/GitHub-Dharshancr-181717?style=for-the-badge&logo=github" />
 </a>
 
-<a href="https://www.linkedin.com/in/dharshan-p/">
+<a href="https://www.linkedin.com/in/dharshan-p-56b240297/">
   <img src="https://img.shields.io/badge/LinkedIn-Dharshan%20P-0A66C2?style=for-the-badge&logo=linkedin" />
 </a>
 
